@@ -147,11 +147,12 @@ header
 /* ant menu */
 .header .ant-menu {
   border: 0;
-  background: none;
+  background: none !important;
 }
 
 .header .ant-menu li.ant-menu-item {
   position: relative;
+  color: #333;
 }
 
 .header .ant-menu li.ant-menu-item:before,
@@ -180,6 +181,7 @@ header
 .header .ant-menu li.ant-menu-item-selected,
 .header .ant-menu li.ant-menu-item:hover {
   color: #1890ff;
+  background: none;
 }
 
 .header .ant-menu li.ant-menu-item-selected:before,
