@@ -34,6 +34,7 @@ class AppWorks extends React.Component {
             visible={this.state.visible}
             onCancel={this.handleCancel}
             footer={null}
+            destroyOnClose = {true}
           >
             <iframe title="Woocommerce Tutorial" width="100%" height="350" src="https://www.youtube.com/embed/8f8_JYIzOno?list=PLiUrl-SQRR7LQINGQGE99pXWDuKq4SxfU"></iframe>
           </Modal>
