@@ -8,7 +8,7 @@ function AppContact() {
     <div id="contact" className="block contactBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>Get in Touch</h2>
+          <h2>Get WEEEEEEEEEEEEE Touch</h2>
           <p>Dolore nam rerum obcaecati fugit odio nobis Molestiae rerum</p>
         </div>
         <Form
