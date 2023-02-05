@@ -50,7 +50,6 @@ function AppPricing() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Choose a plan to fit your needs</h2>
-          <p>Debitis itaque minima dolorum fuga aperiam inventore, quidem enim</p>
         </div>
         <List
           grid={{

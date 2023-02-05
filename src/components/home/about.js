@@ -7,19 +7,19 @@ const items = [
     key: '1',
     icon: <i className="fas fa-chart-pie"></i>,
     title: 'High Performance',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    content: 'Elevate your game with high-performance technology. Enjoy seamless, efficient and powerful experiences.',
   },
   {
     key: '2',
     icon: <i className="fas fa-desktop"></i>,
     title: 'Flat Design',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    content: 'Simplify your aesthetic with flat design. Clean, modern, and minimal design elements for a fresh look.',
   },
   {
     key: '3',
     icon: <i className="fas fa-database"></i>,
     title: 'Simplified Workflow',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    content: 'Streamline your work with our intuitive and efficient workflow solution. Get more done, faster and with ease.',
   },
 ]
 
@@ -29,10 +29,9 @@ function AppAbout() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>About Us</h2>
-          <p>dolor sit amet, consectetur adipisicing elit</p>
         </div>
         <div className="contentHolder">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus officiis repudiandae est deserunt delectus dolorem iure porro distinctio fuga, nostrum doloremque. Facilis porro in laborum dolor amet ratione hic? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aut a porro, adipisci quidem sint enim pariatur ducimus, saepe voluptatibus inventore commodi! Quis, explicabo molestias libero tenetur temporibus perspiciatis deserunt.</p>
+          <p>Technology has revolutionized the way we live and work, providing us with new and innovative ways to solve problems, improve efficiency, and make our lives easier. From artificial intelligence to cloud computing, the rapid advancements in technology are changing the way we interact with the world around us. As we continue to push the boundaries of what is possible, we can expect new and exciting developments that will further shape the future of our world. Whether it's in healthcare, education, or any other industry, technology has the power to make a positive impact and create a better future for all of us. </p>
         </div>
         <Row gutter={[16, 16]}>   
           {items.map(item => {

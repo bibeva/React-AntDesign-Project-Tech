@@ -24,7 +24,7 @@ class AppWorks extends React.Component {
         <div className="container-fluid">
           <div className="titleHolder">
             <h2>How it works</h2>
-            <p>Perspiciatis vero similique, ut ducimus modi ipsam autem tempora</p>
+            <p>check our latest video to know how it works</p>
           </div>
           <div className="contentHolder">
             <Button size="large" onClick={this.showModal}><i className="fas fa-play"></i></Button>

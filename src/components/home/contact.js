@@ -9,7 +9,6 @@ function AppContact() {
       <div className="container-fluid">
         <div className="titleHolder">
           <h2>Get in Touch</h2>
-          <p>Dolore nam rerum obcaecati fugit odio nobis Molestiae rerum</p>
         </div>
         <Form
           name="normal_login"
